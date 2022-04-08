@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/drawable/ic_info_1.xml" value="0.21614583333333334" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_add_znak.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_edite.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_edite_leek.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_info.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_info_znakragment.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_leek.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_open.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/fragment_znak.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/item_bottomsheet.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/item_rv.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/item_spinner.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/layout/tab_item.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/menu/add.xml" value="0.2" />
+        <entry key="..\:/Shaxsiy/PDP/Keraksiz/...00/YHQ/YHQ/app/src/main/res/menu/bottomnavigation_view_menu.xml" value="0.25" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/drawable/bottomsheet.xml" value="0.2128205128205128" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_add_znak.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_edite.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_edite_leek.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_info.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_info_znakragment.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_leek.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_open.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/fragment_znak.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/item_bottomsheet.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/item_rv.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/item_spinner.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/layout/tab_item.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/menu/add.xml" value="0.2" />
+        <entry key="..\:/YHQ/YHQ/app/src/main/res/menu/bottomnavigation_view_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

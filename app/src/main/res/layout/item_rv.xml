@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/guide"
+        app:layout_constraintRight_toLeftOf="@id/guide1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_image1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/image"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/guide_image1"
+                app:layout_constraintRight_toLeftOf="@id/guide_image2"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/image_znak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_4" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.8" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_v1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.36" />
+
+            <TextView
+                android:id="@+id/name_znak"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:text="csavdsvd \nscdsv"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintLeft_toRightOf="@id/guide_v1"
+                app:layout_constraintRight_toLeftOf="@id/guide_text"
+                app:layout_constraintTop_toTopOf="@id/image"
+                app:layout_constraintVertical_bias="0.1" />
+
+            <ImageView
+                android:id="@+id/leek_btn"
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_heart__1__1"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintLeft_toRightOf="@id/name_znak"
+
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/image" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_image2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.3" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.76" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/delete_card"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="@id/image"
+                app:layout_constraintLeft_toRightOf="@id/guide_btn1"
+                app:layout_constraintRight_toRightOf="@id/leek_btn"
+                app:layout_constraintTop_toBottomOf="@id/image">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/delete_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn"
+                    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                    <ImageView
+                        android:id="@+id/delete"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_bin_1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/text_delete"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/text_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O`chirish"
+                        android:textColor="#005CA1"
+                        android:textSize="10sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/delete"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.74" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.51" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/edite_card"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="@id/image"
+                app:layout_constraintHeight_percent="0.2"
+                app:layout_constraintLeft_toRightOf="@id/guide_btn2"
+                app:layout_constraintRight_toLeftOf="@id/guide_btn3"
+
+                app:layout_constraintTop_toBottomOf="@id/image">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/edite_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn"
+                    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                    <ImageView
+                        android:id="@+id/edite"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_pencil_1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/text_edite"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/text_edite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O`zgartirish"
+                        android:textColor="#005CA1"
+                        android:textSize="10sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/edite"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+</androidx.constraintlayout.widget.ConstraintLayout>

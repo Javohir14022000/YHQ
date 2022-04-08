@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DACFF8"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Camera"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/galereya"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/galereya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Galereya"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera" />
+
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="120dp"-->
+    <!--        android:background="@drawable/bottomsheet"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:id="@+id/card1"-->
+    <!--            android:layout_width="70dp"-->
+    <!--            android:layout_height="70dp"-->
+    <!--            android:backgroundTint="#5E5C5C"-->
+    <!--            app:cardCornerRadius="50dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--            app:layout_constraintRight_toLeftOf="@id/card2"-->
+    <!--            app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/camera"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:foreground="?attr/selectableItemBackgroundBorderless"-->
+    <!--                android:scaleType="centerCrop"-->
+    <!--                android:src="@drawable/img_1" />-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:id="@+id/card2"-->
+    <!--            android:layout_width="70dp"-->
+    <!--            android:layout_height="70dp"-->
+    <!--            android:backgroundTint="#5E5C5C"-->
+    <!--            app:cardCornerRadius="50dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintLeft_toRightOf="@id/card1"-->
+    <!--            app:layout_constraintRight_toRightOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/galereya"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:foreground="?attr/selectableItemBackgroundBorderless"-->
+    <!--                android:src="@drawable/img_2"-->
+    <!--                android:scaleType="centerCrop"/>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
